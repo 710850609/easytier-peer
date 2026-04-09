@@ -1,0 +1,70 @@
+[
+  {
+    "url": "udp://easytier.weiai.org.cn:11010",
+    "txt": "/peers/udp-1.txt"
+  },
+  {
+    "url": "udp://boi.de5.net:11010",
+    "txt": "/peers/udp-2.txt"
+  },
+  {
+    "url": "udp://ec.6mahua.top:11010",
+    "txt": "/peers/udp-3.txt"
+  },
+  {
+    "url": "udp://et2.sbgov.cn:11010",
+    "txt": "/peers/udp-4.txt"
+  },
+  {
+    "url": "tcp://ros.scpsl.com.cn:11010",
+    "txt": "/peers/tcp-5.txt"
+  },
+  {
+    "url": "tcp://106.15.202.147:11010",
+    "txt": "/peers/tcp-6.txt"
+  },
+  {
+    "url": "tcp://47.96.28.190:9994",
+    "txt": "/peers/tcp-7.txt"
+  },
+  {
+    "url": "tcp://boi.de5.net:11010",
+    "txt": "/peers/tcp-8.txt"
+  },
+  {
+    "url": "tcp://103.184.47.79:11010",
+    "txt": "/peers/tcp-9.txt"
+  },
+  {
+    "url": "tcp://8.148.29.206:11010",
+    "txt": "/peers/tcp-10.txt"
+  },
+  {
+    "url": "tcp://c.oee.icu:60006",
+    "txt": "/peers/tcp-11.txt"
+  },
+  {
+    "url": "tcp://160.202.238.39:20665",
+    "txt": "/peers/tcp-12.txt"
+  },
+  {
+    "url": "tcp://112.19.8.19:11010",
+    "txt": "/peers/tcp-13.txt"
+  },
+  {
+    "url": "tcp://54.65.126.223:11010",
+    "txt": "/peers/tcp-14.txt"
+  },
+  {
+    "url": "tcp://kddi10gbps.xzcloudnode.sbs:49784",
+    "txt": "/peers/tcp-15.txt"
+  },
+  {
+    "url": "tcp://et2.sbgov.cn:11010",
+    "txt": "/peers/tcp-16.txt"
+  },
+  {
+    "url": "tcp://et.sbgov.cn:11010",
+    "txt": "/peers/tcp-17.txt"
+  }
+]
