@@ -1,1 +1,1 @@
-udp://et2.sbgov.cn:11010
+udp://boi.de5.net:11010

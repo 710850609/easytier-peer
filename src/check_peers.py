@@ -188,14 +188,15 @@ def main():
         print()
         print("可用的地址列表:")
         available_peers = []
-        index = 0
+        indexs = { "tcp": 0, "udp": 0 }
         for r in sorted(connected, key=lambda x: x["latency"] if x["latency"] else float('inf')):
             latency_str = f" ({r['latency']}ms)" if r["latency"] else ""
             print(f"  {r['address']}{latency_str}")
-            index += 1
+            
             schema = r["protocol"].lower()
+            indexs[schema] += 1
             # 使用相对路径，基于项目根目录
-            file_path = f"/peers/{schema}-{index}.txt"
+            file_path = f"/peers/{schema}-{indexs[schema]}.txt"
             file_relative_path = f"..{file_path}"
             os.makedirs(os.path.dirname(file_relative_path), exist_ok=True)
 
